@@ -1,4 +1,4 @@
-import { lazy, LazyExoticComponent } from "react";
+import { lazy, LazyExoticComponent } from 'react';
 
 export interface Routes {
   name: string;
@@ -7,14 +7,16 @@ export interface Routes {
 }
 
 const routes: Routes[] = [
-  // {
-  //   name: "菜单名",
-  //   path: "/balanceManage", // 路由
-  //   component: lazy(
-  //     () =>
-  //       import(/* webpackChunkName: "BalanceManage" */ "@/pages/BalanceManage")
-  //   ), // 组件路径
-  // },
+  {
+    name: '主播合同管理',
+    path: '/contract',
+    component: lazy(
+      () =>
+        import(
+          /* webpackChunkName: "contract" */ '@/pages/ContractManage/indexContractManage'
+        )
+    ),
+  },
 ];
 
 export default routes;

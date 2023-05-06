@@ -16,7 +16,7 @@ const App: FC = () => {
     <ConfigProvider locale={zhCN}>
       <CommonContext.Provider value={common}>
         <Init>
-          <Router basename="/gatekeeper/settlement-platform-admin/balance">
+          <Router basename="/gatekeeper/micro-salary-settle/salary">
             <XLayout />
           </Router>
         </Init>

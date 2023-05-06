@@ -1,4 +1,3 @@
-import { getOpsId } from '@/services/virtualAccount-services';
 import { makeAutoObservable } from 'mobx';
 
 class CommonModels {
@@ -8,11 +7,7 @@ class CommonModels {
     makeAutoObservable(this);
   }
 
-  getOpsId = () => {
-    getOpsId().then((res: any) => {
-      this.opsId = res as string;
-    });
-  };
+  getOpsId = () => {};
 }
 
 export const common = new CommonModels();
