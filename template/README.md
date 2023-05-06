@@ -1,28 +1,3 @@
-cra-template-micro-frontend-sm
-This is a Create React App Template with React Router, Mobx State Tree, TypeScript, and Enzyme.
-
-It installs these dependencies for you, and allow your to customize webpack config.
-
-To use this template, add --template micro-frontend-sm when creating a new app.
-
-For example:
-
-```js
-npx create-react-app my-app --template micro-frontend-sm
-```
-
-# or
-
-```js
-yarn create react-app my-app --template micro-frontend-sm
-```
-
-For more information, please refer to:
-
-Getting Started – How to create a new app.
-User Guide – How to develop apps bootstrapped with Create React App.
-craco
-
 ## 运行命令
 
 ```bash
